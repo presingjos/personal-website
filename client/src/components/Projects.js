@@ -12,7 +12,7 @@ const project = (title,
                             <button className='heroku-button'>
                               <a href={herokuLink}>
                                 <img
-                                  src="http://localhost:5000/images/heroku.png"
+                                  src="https://calm-spire-19547.herokuapp.com/images/heroku.png"
                                   alt="Not found"
                                 />
                               </a>
@@ -56,12 +56,12 @@ class Projects extends React.Component {
           What I've been up to
         </h1>
         {project('Chat Application',
-                 'http://localhost:5000/images/react.png',
+                 'https://calm-spire-19547.herokuapp.com/images/react.png',
                  p1,
                  'https://github.com/presingjos/chat-example',
                  'https://nameless-river-14287.herokuapp.com/')}
         {project('HTML5 GUI with Python Backend',
-                 'http://localhost:5000/images/html5+python.png',
+                 'https://calm-spire-19547.herokuapp.com/images/html5+python.png',
                  p2,
                  'https://github.com/presingjos/py-gui-kit')}
       </div>
