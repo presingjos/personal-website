@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Media queries for different sized screens */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+.connect {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
+}
+
+.text {
+  color: blue;
+  text-decoration: none;
+}
+
+.text:visited  {
+  color: lightblue;
+}
+
+.text:hover {
+  color: lightblue;
+}
+
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.linkedin-button:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}

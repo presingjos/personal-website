@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Media queries for different sized screens */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .event .image {
+    margin: auto;
+  }
+  .event .container {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .event .image {
+    width: 300px;
+    margin: auto;
+  }
+  .event .container {
+    width: 100%;
+    margin: auto;
+  }
+  /* Change the description here */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .event .image {
+    width: 190px;
+    float: right;
+  }
+  .event .container {
+    width: 35%;
+    float: left;
+  }
+  .event .description {
+    float: right;
+    width: 55%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .event .image {
+    width: 250px;
+    float: right;
+  }
+  .event .container {
+    width: 35%;
+    float: left;
+  }
+  .event .description {
+    float: right;
+    width: 55%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .event .image {
+    width: 250px;
+    float: right;
+  }
+  .event .container {
+    width: 35%;
+    float: left;
+  }
+  .event .description {
+    float: right;
+    width: 55%;
+  }
+}
+
+.event {
+  width: 70%;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.event .image {
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+}
+
+.event .image img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 5%;
+}
+
+.event .description h3, h4, h5, p{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.event .description h3 {
+  font-weight: bold;
+}
+
+.event .description h4 {
+  font-size: 87%;
+  color: skyblue;
+}
+
+.event .description h5 {
+  font-size: 87%;
+  color: darkgrey;
+}
+
+.event .description p {
+  word-wrap: break-word;
+  font-size: 85%;
+}
