@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css'
 
 class ParallaxImage extends React.Component {
   render () {
-    let imageDir = 'https://calm-spire-19547.herokuapp.com/images/pratt.jpg'
+    let imageDir = 'https://calm-spire-19547.herokuapp.com/images/personal.jpg'
 
     return (
       <div>
