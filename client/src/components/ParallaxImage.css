@@ -5,10 +5,15 @@
     display: inline-block;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
+
 .parallax {
   min-height: 100vh;
-  /* height: 100%; */
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
