@@ -16,7 +16,7 @@ class History extends React.Component {
           eventDescription='After spending one summer internship at Pratt & Whitney, I decided to come back full time. My team works to develop in house software for groups who focus on the high temperature regions of jet engines. I lead the development of an application to improve the durability analysis of all components in these high temperature regions. The application enables traceability on all methodologies run and has shown a 70% decrease in analysis time from the previous method. I also play a role in creating a company wide Python package repository using conda and cloud services. Currently, I am working to create a HTML5 based GUI with a Python backend which I intend to rollout to all other projects I am working on.'
           />
         <Event
-          imageURL='https://calm-spire-19547.herokuapp.com/images/WPI.jpg'
+          imageURL='https://calm-spire-19547.herokuapp.com/images/WPI.JPG'
           eventName='Worcester Polytechnic Institute'
           eventLocation='Worcester, MA'
           eventPosition='B.S. in Mechanical Engineering with a minor in Computer Science,
