@@ -4,13 +4,6 @@
     margin: 0;
     display: inline-block;
 }
-
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-      background-attachment: scroll;
-  }
-}
-
 .parallax {
   min-height: 100vh;
   background-attachment: fixed;
@@ -18,6 +11,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
 
 .border {
   border-style: solid;
