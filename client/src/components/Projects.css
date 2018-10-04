@@ -4,6 +4,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .project {
+    width: 90%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .project .image {
     width: 250px;
     margin: auto;
@@ -19,6 +26,13 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .project {
+    width: 90%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .project .image {
     width: 175px;
     margin: auto;
@@ -34,6 +48,13 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .project {
+    width: 70%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .project .image {
     width: 175px;
     float: left;
@@ -50,6 +71,14 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .project {
+    width: 70%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
+
   .project .image {
     width: 200px;
     float: left;
@@ -65,6 +94,13 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .project {
+    width: 70%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .project .image {
     width: 250px;
     float: left;
@@ -89,14 +125,6 @@
   text-align: center;
   font-weight: bold;
   font-size: 175%;
-}
-
-.project {
-  width: 70%;
-  margin-top: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: auto;
 }
 
 /* .project .container {

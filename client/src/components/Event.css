@@ -4,6 +4,13 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .event {
+    width: 90%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .event .image {
     margin: auto;
   }
@@ -15,6 +22,13 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .event {
+    width: 90%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .event .image {
     width: 300px;
     margin: auto;
@@ -23,11 +37,17 @@
     width: 100%;
     margin: auto;
   }
-  /* Change the description here */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .event {
+    width: 70%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .event .image {
     width: 190px;
     float: right;
@@ -44,6 +64,13 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .event {
+    width: 70%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .event .image {
     width: 250px;
     float: right;
@@ -60,6 +87,13 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .event {
+    width: 70%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+  }
   .event .image {
     width: 250px;
     float: right;
@@ -74,13 +108,13 @@
   }
 }
 
-.event {
+/* .event {
   width: 70%;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   overflow: auto;
-}
+} */
 
 .event .image {
   background-color: rgb(235, 235, 235);

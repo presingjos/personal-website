@@ -13,7 +13,7 @@ class History extends React.Component {
           eventName='Pratt & Whitney'
           eventLocation='East Hartford, CT'
           eventPosition='Software Engineer, Since Summer 2016 + 2017'
-          eventDescription='After spending one summer internship at Pratt & Whitney, I decided to come back full time. My team works to develop in house software for groups who focus on the high temperature regions of jet engines. I lead the development of an application to improve the durability analysis of all components in these high temperature regions. The application enables traceability on all methodologies run and has shown a 70% decrease in analysis time from the previous method. I also play a role in creating a company wide Python package repository using conda and cloud services. Currently, I am working to create a HTML5 based GUI with a Python backend which I intend to rollout to all other projects I am working on.'
+          eventDescription='At Pratt & Whitney, I am apart of team that combines computer science and mechanical engineering together. This combination is one of the many reasons I returned to Pratt & Whitney full time. My team creates analysis software specifically for the high temperature regions of the jet engine. I lead the development of an application to standardize and revise the previous durability analysis process of all components in high temperature regions. The application enables plug and play analysis methodologies and has shown a 70% decrease in analysis time. I am also working on implementing a company wide Python distribution via Conda and cloud services. Lastly, I am introducing a desktop application that uses HTML5 as the user interface and Python for all the business logic. This will allow my team to easily create cross platform applications, utilize the convenience of Python, and expand outsourcing of user interfaces to web developers.'
           />
         <Event
           imageURL='https://calm-spire-19547.herokuapp.com/images/WPI.JPG'
@@ -21,14 +21,14 @@ class History extends React.Component {
           eventLocation='Worcester, MA'
           eventPosition='B.S. in Mechanical Engineering with a minor in Computer Science,
                          earned May 2017'
-          eventDescription='Before going to WPI I did not know what I wanted to study. WPI provided me with many different routes to discover what my passions are. In my first two years I discovered computer aided design and landed two internships as a design engineer. In my third year, I was introduced to computer science and spent two months in Thailand where I designed a drainage system for a Bangkok slum. I was humbled by my experience in Thailand through talking and interacting with members of the area and seeing their daily struggles. In my last year at WPI, I spent most of my time working on long term projects. My favorites were programming a robot to play jenga and experimenting with different 3D printing patterns and their influence on thermal deformation.'
+          eventDescription='WPI provided me with many different opportunities to discover and develop my passions for design and engineering. In my first and second year I discovered computer aided design and spent two internships as a design engineer. This taught me the difference between simply designing something and creating a robust, manufacturable design. In my third year, I was introduced to computer science and spent half a semester in Thailand where I aided in writing a interactive map application to identify drain blockages in a Bangkok slum. That year I spent the summer working at Pratt & Whitney on a particle simulation application, which taught me the importance of code optimization and documentation. In my last year at WPI, I got to work on many exciting projects including programming a robot to play jenga and experimenting with 3D printing and the influence on thermal deformation. WPI allowed me to make lifelong connections, taught me how I learn best, and pointed me to a career path that I know I will love.'
         />
         <Event
           imageURL='https://calm-spire-19547.herokuapp.com/images/ebmpapst.jpeg'
           eventName='ebm-papst'
           eventLocation='Farmington, CT'
           eventPosition='Design Engineer Intern, Summer 2014+2015'
-          eventDescription='I spent two internships at ebm-papst as a design engineer. I learned a lot about the design process and the challenges that design engineers face everyday. These internships also taught me how to be a professional and key communication skills that have helped me get to where I am today.'
+          eventDescription='I spent two internships at ebm-papst as a design engineer. At ebm-papst, I learned how to create production level designs with Creo Parametric 5.0. I designed tooling fixtures to air flow testing rigs and aided in the design process of many products. I gained critical communication and teamwork skills from all the connections that I made during my time at ebm-papst.'
         />
       </div>
     )
