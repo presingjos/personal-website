@@ -1,25 +1,23 @@
 import React from 'react'
 import './Event.css'
 
-class Event extends React.Component {
-
-  render () {
-    return (
-      <div className='event'>
-        <div className='container'>
-          <div className='image'>
-            <img src={this.props.imageURL} alt='Not found'/>
-          </div>
-        </div>
-        <div className='description'>
-          <h3>{this.props.eventName}</h3>
-          <h5>{this.props.eventLocation}</h5>
-          <h4>{this.props.eventPosition}</h4>
-          <p>{this.props.eventDescription}</p>
-        </div>
+export default ({
+  imageURL,
+  eventName,
+  eventLocation,
+  eventPosition,
+  eventDescription
+}) =>
+  <div className='event'>
+    <div className='container'>
+      <div className='image'>
+        <img src={imageURL} alt='Not found'/>
       </div>
-    )
-  }
-}
-
-export default Event
+    </div>
+    <div className='description'>
+      <h3>{eventName}</h3>
+      <h5>{eventLocation}</h5>
+      <h4>{eventPosition}</h4>
+      <p>{eventDescription}</p>
+    </div>
+  </div>
